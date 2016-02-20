@@ -1,0 +1,34 @@
+
+.button[data-id="3"]{
+	clear: left;
+}
+.button[data-id="4"]]{
+	clear: right;
+}
+.button[data-id="1"]{
+	background-color: palegreen;
+}
+.button[data-id="2"]{
+	background-color: salmon;
+}
+.button[data-id="3"]{
+	background-color:  #ffdb4d;
+}
+.button[data-id="4"]{
+	background-color: cornflowerblue;
+}
+
+.button{
+	height: 200px;
+	width: 200px;
+	border: 4px;
+	margin: 8px;
+	float: left;
+	border: solid black 4px;
+}
+.button:active{
+	background-color: ghostwhite;
+}
+.button:hover{
+	opacity: .7;
+}
